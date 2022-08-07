@@ -1,1 +1,52 @@
-/* Write your CSS here! */
+
+#fresh {
+
+    text-align: center;
+    font-family: "Optima, sans-serif";
+    font-weight: 300;
+    font-variant: small-caps;
+    color : green;
+
+}
+
+.container {
+    display: flex; 
+    border: 5px solid rgb(111,41,97);
+    padding: 10px;
+}
+
+#about-section {
+    background-color: yellow;
+    width: 50%;
+    height: 40%;
+    border: 5px solid black;
+    margin: 0 auto;
+
+}
+
+.blogpost {
+    background-color: red;
+    width: 50%;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.blogtext {
+    font-size: 50%;
+}
+
+#img1 {
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+#intro {
+    font-size: 70%;
+    text-align: center;
+
+    background-color: aquamarine;
+}
+
+#bio {
+    background-color: aquamarine;
+}
