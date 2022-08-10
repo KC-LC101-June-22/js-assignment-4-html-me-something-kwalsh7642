@@ -1,1 +1,72 @@
-/* Write your CSS here! */
+
+#fresh {
+
+    text-align: center;
+    font-family: "Optima, sans-serif";
+    font-weight: 300;
+    font-variant: small-caps;
+    color : green;
+
+}
+
+body {
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    border: 5px solid rgb(111,41,97);
+}
+
+#about-section {
+    background-color: yellow;
+    width: 200px;
+    height: 40%;
+    border: 5px solid black;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.blogblock {
+    background-color: red;
+    width: 100%;
+}
+
+.blogpost {
+    border: 5px solid black;
+}
+
+.blogtext {
+    font-size: 100%;
+    padding-left: 10px;
+}
+
+#img-text {
+    display: flex;
+    padding: 10px;
+}
+
+#img1 {
+    width: 50%;
+    height: 50%;
+}
+
+#intro {
+    font-size: 70%;
+    text-align: center;
+
+    background-color: aquamarine;
+}
+
+#bio {
+    background-color: aquamarine;
+    padding-left: 10px;
+}
